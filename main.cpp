@@ -19,20 +19,8 @@ int main() {
 	sort(T.begin(), T.end());
 	cout << "------------------------------" << endl;
 
-	cout << T[0] <<endl;
-	cout << T[1] <<endl;
-	cout << T[2] <<endl;
-	cout << T[3] <<endl;
-	cout << T[4] <<endl;
-
-//	for(int i ; i < T.size() ; i++)
-//	{
-//		cout << T[i] ;
-//	}
-//	cout << endl;
-
-
-
-
+	for(int i=0; i < T.size() ; i++)  	cout << T[i] <<"\t";
+	cout << endl;
+	
 	return 0;
 }
